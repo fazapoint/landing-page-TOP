@@ -1,0 +1,186 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #8EACCD;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .nav-right {
+    display: flex;
+    gap: 25px;
+}
+
+nav .nav-left a {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav .nav-right a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description h1 {
+    margin-top: 0;
+    color: #F9FAF8;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.main-image img {
+    max-width: 100%;
+}
+
+.header-section {
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.information-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+.information-section h3 {
+    color: lightcoral;
+}
+
+.photo-grid {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.photo-square {
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    border:3px #F9F3CC solid;
+}
+
+.photo-square img {
+    width: 180px;
+    height: 180px;
+}
+
+.text-photo {
+    margin-top: 10px;
+    color: lightcoral;
+}
+
+main {
+    flex: 1;
+}
+
+.main-one {
+    background-color: #D2E0FB;
+}
+
+.main-two {
+    background-color: #F9F3CC;
+}
+
+.main-three {
+    background-color: #D7E5CA;
+    padding: 25px;
+}
+
+.quote-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+.quote-section p {
+    color: #8EACCD;
+}
+
+.join-card {
+    border-radius: 10px;
+    background-color: lightcoral;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+}
+
+.join-card {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.message-join {
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+}
+
+.call-action {
+    margin-bottom: 0;
+}
+
+.body-action {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.btn-top {
+    height: 30px;
+    width: 100px;
+    background-color: #D2E0FB;
+}
+
+.btn-btm {
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    background-color: #F9F3CC;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
